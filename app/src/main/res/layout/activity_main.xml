@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@color/grey"
+    >
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="3"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/btn1"
+            android:onClick="onclicking" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_marginStart="20dp"
+            android:onClick="onclicking" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_marginStart="20dp"
+            android:onClick="onclicking" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:onClick="onclicking" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_marginStart="20dp"
+            android:onClick="onclicking" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_marginStart="20dp"
+            android:onClick="onclicking" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:onClick="onclicking" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_marginStart="20dp"
+            android:onClick="onclicking" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_marginStart="20dp"
+            android:onClick="onclicking" />
+
+        <Button
+            android:id="@+id/nonebutton"
+            android:background="@color/transparent" />
+
+        <Button
+            android:id="@+id/resetbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="200dp"
+            android:width="100dp"
+            android:height="30dp"
+            android:gravity="center"
+            android:onClick="restartgame"
+            android:text="@string/restart" />
+
+
+    </GridLayout>
+
+</LinearLayout>
