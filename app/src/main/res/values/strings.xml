@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">tictactoe1</string>
+    <string name="restart" />
+</resources>
